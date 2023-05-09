@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { View, StyleSheet } from "react-native";
 import { useTheme } from "../context/ThemeContext";
 
-const MainContainer = ({children}) => {
+const MainContainer = ({ children }) => {
   const theme = useTheme();
   const styles = styling(theme);
 
@@ -25,7 +25,6 @@ const styling = (theme) =>
     childrenContainer: {
       flex: 1,
       justifyContent: "center",
-      alignItems: "center",
     },
   });
 

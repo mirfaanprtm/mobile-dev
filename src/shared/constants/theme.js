@@ -31,7 +31,7 @@ const theme = {
         h3style: {
             fontSize: 16,
             color: "bisque",
-            fontFamily: "Montserrat-Medium"
+            fontFamily: "Montserrat-Regular"
         },
     }
 }
